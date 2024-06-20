@@ -1,12 +1,13 @@
 { ... }: {
   programs.waybar = {
     enable = true;
+
     settings = {
       mainBar = {
         layer = "top";
         position = "top";
         spacing = 0;
-        height = 36;
+        height = 32;
 
         modules-left = [
           "hyprland/workspaces"
