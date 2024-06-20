@@ -26,6 +26,7 @@
         disable_hyprland_logo = true;
         mouse_move_enables_dpms = true;
         no_direct_scanout = false;
+        enable_hyprcursor = false;
       };
 
       monitor = [
