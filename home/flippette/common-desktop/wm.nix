@@ -2,6 +2,10 @@
   wayland.windowManager.hyprland = {
     enable = true;
     settings = {
+      env = [
+        "XCURSOR_SIZE,32"
+      ];
+
       # key definitions
       "$mod" = "Super";
       "$left" = "H";
