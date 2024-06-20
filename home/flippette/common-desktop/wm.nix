@@ -120,6 +120,7 @@
       exec-once = [
         "waybar"
         "dunst"
+        "udiskie"
       ];
     };
   };
