@@ -2,7 +2,7 @@
   imports = [
     ../common
     ./boot.nix
-    ./services.nix
+    ./services
     ./users.nix
   ];
 }

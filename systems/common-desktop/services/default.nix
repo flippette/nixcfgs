@@ -1,6 +1,6 @@
 { ... }: {
   imports = [
-    libinput.nix
-    pipewire.nix
+    ./libinput.nix
+    ./pipewire.nix
   ];
 }
