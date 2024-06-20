@@ -7,6 +7,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    pipewire-screenaudio.url = "github:IceDBorn/pipewire-screenaudio";
   };
 
   outputs = { self, home-manager, nixpkgs, ... } @ inputs: {
@@ -19,6 +20,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.flippette = import ./home/flippette/common-desktop;
+            home-manager.extraSpecialArgs = { inherit inputs; };
           }
         ];
       };
