@@ -8,6 +8,14 @@
     };
   };
 
+  gtk = {
+    enable = true;
+    theme = {
+      name = "Adwaita-dark";
+      package = pkgs.gnome.gnome-themes-extra;
+    };
+  };
+
   home = {
     packages = with pkgs; [ dconf ];
 
@@ -15,7 +23,6 @@
       gtk.enable = true;
       name = "Bibata-Modern-Classic";
       package = pkgs.bibata-cursors;
-      size = 48;
     };
   };
 }
