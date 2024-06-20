@@ -1,0 +1,3 @@
+# `nixcfgs`
+
+my nixos configuration.
