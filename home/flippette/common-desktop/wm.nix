@@ -111,6 +111,10 @@
       animations.enabled = true;
       bezier = "ease_inout_sine, 0.37, 0, 0.63, 1";
       animation = "global, 1, 1.5, ease_inout_sine";
+
+      exec-once = [
+        "waybar"
+      ];
     };
   };
 }
