@@ -96,10 +96,10 @@
         "$mod Shift_L, Space, togglefloating"
 
         # screenshot
-        "$mod Shift_L, P, exec, grimshot save anything"
-        "$mod, P, exec, grimshot copy anything"
-        "$mod Ctrl_L Shift_L, P, exec, grimshot save active"
-        "$mod Ctrl_L, P, exec, grimshot copy active"
+        "$mod Shift_L, P, exec, grimblast save area"
+        "$mod, P, exec, grimblast copy area"
+        "$mod Ctrl_L Shift_L, P, exec, grimblast save active"
+        "$mod Ctrl_L, P, exec, grimblast copy active"
 
         # color picker
         "$mod, C, exec, hyprpicker -a"
