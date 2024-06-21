@@ -4,7 +4,7 @@
     settings = {
       main = {
         dpi-aware = true;
-        font = "monospace:size=18";
+        font = "Iosevka Comfy Fixed:size=18";
         pad = "0x0 center";
       };
 
