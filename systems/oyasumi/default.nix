@@ -6,6 +6,7 @@
     ./hardware-configuration.nix
     ./hardware.nix
     ./misc.nix
-    ./programs.nix
+    ./programs
+    ./services
   ];
 }
