@@ -4,7 +4,7 @@
     settings = {
       main = {
         dpi-aware = true;
-        font = "Iosevka Comfy Fixed:size=18, Symbols Nerd Font Mono:size=10";
+        font = "Iosevka Comfy Fixed:size=18";
         pad = "0x0 center";
       };
 
