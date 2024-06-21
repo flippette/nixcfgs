@@ -1,0 +1,1 @@
+{ ... }: { programs.eza.icons = true; }
