@@ -4,7 +4,7 @@
     ./environment.nix
     ./misc.nix
     ./networking.nix
-    ./programs.nix
+    ./programs
     ./users.nix
   ];
 }
