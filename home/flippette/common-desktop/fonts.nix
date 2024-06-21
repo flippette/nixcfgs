@@ -13,6 +13,9 @@
   home.packages = with pkgs; [
     iosevka-comfy.comfy
     iosevka-comfy.comfy-fixed
+    (nerdfonts.override {
+      fonts = [ "NerdFontsSymbolsOnly" ];
+    })
     noto-fonts
     twemoji-color-font
   ];
