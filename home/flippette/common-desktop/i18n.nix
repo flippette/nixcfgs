@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   # there's not a module for this :pensive:
-  home.file.".config/fcitx5/config".text = ''
+  xdg.configFile."fcitx5/config".text = ''
     [Hotkey]
     EnumerateWithTriggerKeys=True
     EnumerateSkipFirst=False
