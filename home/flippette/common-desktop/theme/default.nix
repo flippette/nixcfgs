@@ -5,5 +5,6 @@
     ./foot.nix
     ./gtk.nix
     ./hyprland.nix
+    ./qt.nix
   ];
 }
