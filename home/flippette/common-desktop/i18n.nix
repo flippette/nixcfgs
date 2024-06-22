@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   # there's not a module for this :pensive:
   home.file = {
-    "~/.config/fcitx5/config".text = ''
+    ".config/fcitx5/config".text = ''
       [Hotkey]
       EnumerateWithTriggerKeys=True
       EnumerateSkipFirst=False
@@ -12,7 +12,7 @@
       [Behavior]
       ShareInputState=All
     '';
-    "~/.config/fcitx5/profile".text = ''
+    ".config/fcitx5/profile".text = ''
       [Groups/0]
       Name=Default
       Default Layout=us
