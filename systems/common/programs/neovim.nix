@@ -1,10 +1,7 @@
 { ... }: {
   programs.neovim = {
     defaultEditor = true;
-
-    # managed by home-manager
-    enable = false;
-
+    enable = true;
     viAlias = true;
     vimAlias = true;
   };
