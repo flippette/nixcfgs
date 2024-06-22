@@ -5,7 +5,7 @@
     ./packages.nix
     ./programs
     ./services
-    ./theme.nix
+    ./theme
     ./xdg.nix
     ./wm.nix
   ];
