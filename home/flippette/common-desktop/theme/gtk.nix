@@ -2,7 +2,7 @@
   gtk = {
     enable = true;
     theme = {
-      name = "Catppuccin-Mocha-Mauve-Dark";
+      name = "Catppuccin-Mocha-Standard-Mauve-Dark";
       package = pkgs.catppuccin-gtk.override {
         accents = [ "mauve" ];
         variant = "mocha";
