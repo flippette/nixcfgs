@@ -7,7 +7,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
-    pipewire-screenaudio.url = "github:IceDBorn/pipewire-screenaudio";
+    pipewire-screenaudio = {
+      url = "github:IceDBorn/pipewire-screenaudio";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, home-manager, nixpkgs, ... } @ inputs: {
