@@ -14,14 +14,6 @@
       "udev.log_priority=3"
     ];
 
-    plymouth = {
-      enable = true;
-      theme = "ibm";
-      themePackages = with pkgs; [
-        (adi1090x-plymouth-themes.override {
-          selected_themes = [ "ibm" ];
-        })
-      ];
-    };
+    plymouth.enable = true;
   };
 }
