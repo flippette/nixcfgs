@@ -3,7 +3,7 @@
     defaultFonts = {
       emoji = [ "Twitter Color Emoji" ];
       monospace = [ "Iosevka Comfy" ];
-      sansSerif = [ "Noto Sans" ];
+      sansSerif = [ "Cantarell" "Noto Sans" ];
       serif = [ "Noto Serif" ];
     };
 
@@ -11,6 +11,7 @@
   };
 
   home.packages = with pkgs; [
+    cantarell-fonts
     iosevka-comfy.comfy
     iosevka-comfy.comfy-fixed
     (nerdfonts.override {
