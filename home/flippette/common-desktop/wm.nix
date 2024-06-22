@@ -123,5 +123,7 @@
         "udiskie"
       ];
     };
+
+    systemd.enableXdgAutostart = true;
   };
 }
