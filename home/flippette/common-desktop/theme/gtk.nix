@@ -3,15 +3,12 @@
     enable = true;
     theme = {
       name = "Catppuccin-Mocha-Mauve-Dark";
-      package = (pkgs.catppuccin-gtk.override {
+      package = pkgs.catppuccin-gtk.override {
         accents = [ "mauve" ];
         variant = "mocha";
-      });
+      };
     };
   };
-
-  # catppuccin-gtk requires this
-  home.packages = [ pkgs.gnome-themes-extra ];
 
   # gtk4 :shrug:
   xdg.configFile = 
