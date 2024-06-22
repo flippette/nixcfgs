@@ -1,4 +1,4 @@
-{ ... }: {
+{ config, ... }: {
   # theme file
   xdg.configFile."hypr/theme.conf".source = builtins.fetchurl {
     url = "https://raw.githubusercontent.com/catppuccin/hyprland/main/themes/mocha.conf";
@@ -7,7 +7,7 @@
 
   wayland.windowManager.hyprland = {
     settings = {
-      source = [ "${xdg.configHome}/hypr/theme.conf" ];
+      source = [ "${config.xdg.configHome}/hypr/theme.conf" ];
       general."col.active_border" = "$mauve";
     };
   };
