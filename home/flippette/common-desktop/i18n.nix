@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   i18n.inputMethod = {
-    enabled = true;
-    addons = [ pkgs.fcitx5-unikey ];
+    enabled = "fcitx5";
+    fcitx5.addons = [ pkgs.fcitx5-unikey ];
   };
 }
