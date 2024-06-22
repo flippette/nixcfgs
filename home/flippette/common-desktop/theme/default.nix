@@ -4,5 +4,6 @@
     ./dconf.nix
     ./foot.nix
     ./gtk.nix
+    ./hyprland.nix
   ];
 }
