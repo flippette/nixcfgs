@@ -10,6 +10,9 @@
     };
   };
 
+  # catppuccin-gtk requires this
+  home.packages = [ pkgs.gnome-themes-extra ];
+
   # gtk4 :shrug:
   xdg.configFile = 
   let
