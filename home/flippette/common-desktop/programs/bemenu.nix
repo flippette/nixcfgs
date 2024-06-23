@@ -1,5 +1,1 @@
-{ ... }: {
-  programs.bemenu = {
-    enable = true;
-  };
-}
+{ ... }: { programs.bemenu.enable = true; }

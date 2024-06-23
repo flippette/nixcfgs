@@ -1,0 +1,3 @@
+{ ... }: {
+  programs.bemenu.settings = {};
+}
