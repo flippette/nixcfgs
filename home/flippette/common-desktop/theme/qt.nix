@@ -18,6 +18,7 @@
       [Appearance]
       custom_palette=true
       color_scheme_path=${themeDir}/${name}.conf
+      icon_theme=Papirus-Dark
       standard_dialogs=xdgdesktopportal
       style=Lightly
 
