@@ -4,6 +4,7 @@
     ./bemenu.nix
     ./cursor.nix
     ./dconf.nix
+    ./dunst.nix
     ./foot.nix
     ./gtk.nix
     ./hyprland.nix
