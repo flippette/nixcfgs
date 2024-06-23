@@ -1,4 +1,4 @@
-{ ... }: {
+{ nixpkgs, ... }: {
   imports = [
     ./boot.nix
     ./environment.nix
@@ -8,4 +8,6 @@
     ./programs
     ./users.nix
   ];
+
+  nixpkgs.config.allowUnfree = true;
 }
