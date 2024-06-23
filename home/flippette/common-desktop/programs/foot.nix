@@ -11,6 +11,7 @@
       scrollback = {
         lines = 10000;
         multiplier = 5.0;
+        indicator-position = "none";
       };
 
       mouse.hide-when-typing = "yes";
