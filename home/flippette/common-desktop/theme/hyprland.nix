@@ -7,7 +7,7 @@ let
 in {
   wayland.windowManager.hyprland = {
     settings = {
-      source = [ "${config.xdg.configHome}/hypr/theme.conf" ];
+      source = [ "${themeFile}" ];
       general."col.active_border" = "$mauve";
     };
   };
