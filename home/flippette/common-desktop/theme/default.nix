@@ -1,5 +1,6 @@
 { pkgs, ... }: {
   imports = [
+    ./bat.nix
     ./bemenu.nix
     ./cursor.nix
     ./dconf.nix
