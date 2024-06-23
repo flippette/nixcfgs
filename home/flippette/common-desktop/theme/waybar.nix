@@ -9,7 +9,7 @@ in {
     @import "${paletteFile}";
 
     * {
-      font-family = "monospace";
+      font-family: "monospace";
       font-size: 16px;
     }
 
