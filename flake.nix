@@ -1,6 +1,4 @@
 {
-  description = "flippette's nixos config";
-
   inputs = {
     home-manager = {
       url = "github:nix-community/home-manager/release-24.05";
@@ -14,6 +12,8 @@
   };
 
   outputs = { self, home-manager, nixpkgs, ... } @ inputs: {
+    formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
+
     nixosConfigurations = {
       oyasumi = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
