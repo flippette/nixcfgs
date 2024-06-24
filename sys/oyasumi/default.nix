@@ -7,7 +7,6 @@
     ./filesystems.nix
     ./hardware-configuration.nix
     ./hostname.nix
-    ./nix.nix
     ./timezone.nix
   ];
 }

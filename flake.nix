@@ -16,6 +16,7 @@
           modules = [
             ./sys/oyasumi
             ./theme/catppuccin-mocha/sys
+            { system.stateVersion = "24.05"; }
           ];
         };
       };
