@@ -36,10 +36,31 @@
         "type": "github"
       }
     },
+    "pipewire-screenaudio": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1715248396,
+        "narHash": "sha256-3er5F6A2liPktiKkQfjIoBX6YB9KD9wFuyhQ0dxGfXw=",
+        "owner": "icedborn",
+        "repo": "pipewire-screenaudio",
+        "rev": "9c9ad3491dcdd3a535d76ac85433ac5325621eb4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "icedborn",
+        "repo": "pipewire-screenaudio",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "pipewire-screenaudio": "pipewire-screenaudio"
       }
     }
   },

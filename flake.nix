@@ -6,6 +6,11 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    pipewire-screenaudio = {
+      url = "github:icedborn/pipewire-screenaudio";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
