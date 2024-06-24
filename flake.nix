@@ -28,7 +28,7 @@
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
               home-manager.users.flippette.imports = [
-                ./home
+                ./home/oyasumi
                 ./theme/catppuccin-mocha/home
                 { home.stateVersion = "24.05"; }
               ];
