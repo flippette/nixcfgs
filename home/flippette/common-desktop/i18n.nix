@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   # there's not a module for this :pensive:
   xdg.configFile."fcitx5/config".text = ''
     [Hotkey]
@@ -17,4 +18,3 @@
     fcitx5.addons = [ pkgs.fcitx5-unikey ];
   };
 }
-

@@ -1,4 +1,4 @@
-{ lib, ... }: 
+{ lib, ... }:
 let
   settings = {
     global = {
@@ -39,6 +39,7 @@ let
       frame_color = "#fab387";
     };
   };
-in {
+in
+{
   services.dunst.settings = lib.recursiveUpdate settings theme;
 }

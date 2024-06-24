@@ -1,8 +1,7 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   environment = {
-    shells = with pkgs; [
-      fish
-    ];
+    shells = with pkgs; [ fish ];
 
     systemPackages = with pkgs; [
       curl

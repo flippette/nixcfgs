@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   hardware = {
     mcelog.enable = true;
 
@@ -9,4 +10,3 @@
     };
   };
 }
-

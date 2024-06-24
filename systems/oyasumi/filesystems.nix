@@ -1,4 +1,5 @@
-{ lib, ... }: {
+{ lib, ... }:
+{
   fileSystems = lib.mkForce {
     "/" = {
       device = "/dev/disk/by-label/root";
@@ -35,7 +36,5 @@
     };
   };
 
-  swapDevices = [
-    { device = "/swap/swapfile"; }
-  ];
+  swapDevices = [ { device = "/swap/swapfile"; } ];
 }

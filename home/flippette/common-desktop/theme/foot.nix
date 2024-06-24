@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   programs.foot.settings = {
     colors = {
       alpha = 1.0;

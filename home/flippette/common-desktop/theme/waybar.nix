@@ -1,10 +1,11 @@
-{ ... }: 
+{ ... }:
 let
   paletteFile = builtins.fetchurl {
     url = "https://raw.githubusercontent.com/catppuccin/waybar/main/themes/mocha.css";
     sha256 = "a6e30597ccc828e898844eb0cea9df7d73879ff5672a6a550f3acc24c93edd17";
   };
-in {
+in
+{
   programs.waybar.style = ''
     @import "${paletteFile}";
 

@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   services.pipewire.extraConfig.pipewire."92-low-latency" = {
     # these are single keys, do not nest them
     "context.properties" = {

@@ -1,4 +1,5 @@
-{ lib, pkgs, ...  }: {
+{ lib, pkgs, ... }:
+{
   boot = {
     consoleLogLevel = 0;
     initrd.verbose = false;

@@ -1,4 +1,5 @@
-{ nixpkgs, ... }: {
+{ nixpkgs, ... }:
+{
   imports = [
     ./boot.nix
     ./environment.nix

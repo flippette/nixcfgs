@@ -1,1 +1,4 @@
-{ ... }: { programs.eza.icons = true; }
+{ ... }:
+{
+  programs.eza.icons = true;
+}
