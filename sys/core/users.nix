@@ -4,7 +4,9 @@
     # prefer adding users here so it's easier to parse
     # you could just grep usernames in this file anyhow
     groups = {
+      gamemode.members = [ "flippette" ];
       networkmanager.members = [ "flippette" ];
+      pipewire.members = [ "flippette" ];
       wheel.members = [ "flippette" ];
     };
 
