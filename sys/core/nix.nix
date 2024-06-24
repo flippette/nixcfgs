@@ -1,3 +1,4 @@
+{ nixpkgs, ... }:
 {
   nix = {
     gc = {
@@ -20,5 +21,6 @@
     };
   };
 
+  nixpkgs.config.allowUnfree = true;
   system.autoUpgrade.enable = true;
 }
