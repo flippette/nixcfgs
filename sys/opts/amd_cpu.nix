@@ -1,3 +1,1 @@
-{
-  boot.kernelParams = [ "amd_pstate=active" ];
-}
+{ boot.kernelParams = [ "amd_pstate=active" ]; }

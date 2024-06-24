@@ -4,7 +4,7 @@
       automatic = true;
       dates = "daily";
     };
-    
+
     optimise = {
       automatic = true;
       dates = [ "daily" ];
