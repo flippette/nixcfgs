@@ -15,7 +15,7 @@
         createDirectories = true;
         desktop = "${homeDir}/desktop";
         documents = "${homeDir}/documents";
-        downloads = "${homeDir}/downloads";
+        download = "${homeDir}/downloads";
         enable = true;
         music = "${homeDir}/music";
         pictures = "${homeDir}/pictures";
