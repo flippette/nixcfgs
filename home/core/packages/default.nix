@@ -2,6 +2,7 @@
   imports = [
     ./bemenu.nix
     ./btop.nix
+    ./dconf.nix
     ./dunst.nix
     ./eza.nix
     ./firefox.nix
