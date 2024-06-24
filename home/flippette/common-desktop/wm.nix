@@ -26,8 +26,9 @@
         disable_hyprland_logo = true;
         mouse_move_enables_dpms = true;
         no_direct_scanout = false;
-        enable_hyprcursor = false;
       };
+
+      cursor.enable_hyprcursor = false;
 
       monitor = [
         "DP-2,1920x1080@144,auto,1"
