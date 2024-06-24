@@ -4,8 +4,7 @@
     enable = true;
     enableFishIntegration = true;
     settings = {
-      format = lib.concatStrings
-      [
+      format = lib.concatStrings [
         "$directory"
         "$git_branch"
         "$git_status"
