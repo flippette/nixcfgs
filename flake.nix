@@ -23,7 +23,7 @@
             ./theme/catppuccin-mocha/sys
             { system.stateVersion = "24.05"; }
 
-            home-manager.nixosModules.home-manager 
+            home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
@@ -32,7 +32,9 @@
                 ./theme/catppuccin-mocha/home
                 { home.stateVersion = "24.05"; }
               ];
-              home-manager.extraSpecialArgs = { inherit inputs; };
+              home-manager.extraSpecialArgs = {
+                inherit inputs;
+              };
             }
           ];
         };
