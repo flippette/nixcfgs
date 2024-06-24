@@ -2,6 +2,7 @@
   imports = [
     ../../opts/sys/amd_cpu.nix
     ../../opts/sys/amd_gpu.nix
+    ../../opts/sys/bluetooth.nix
     ../../opts/sys/cpu_gov_perf.nix
     ../core
     ./filesystems.nix
