@@ -3,10 +3,9 @@
   hardware = {
     mcelog.enable = true;
 
-    opengl = {
-      driSupport = true;
-      driSupport32Bit = true;
+    graphics = {
       enable = true;
+      enable32Bit = true;
     };
   };
 }
