@@ -35,6 +35,7 @@
               home-manager.users.flippette.imports = [
                 ./home/oyasumi
                 ./theme/catppuccin-mocha/home
+                ./theme/icons
                 { home.stateVersion = "24.05"; }
               ];
               home-manager.extraSpecialArgs = {
