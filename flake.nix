@@ -13,7 +13,10 @@
       nixosConfigurations = with nixpkgs.lib; {
         oyasumi = nixosSystem {
           system = "x86_64-linux";
-          modules = [ ./sys/oyasumi ];
+          modules = [
+            ./sys/oyasumi
+            ./theme/catppuccin-mocha/sys
+          ];
         };
       };
     };
