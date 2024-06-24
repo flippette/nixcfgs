@@ -1,6 +1,8 @@
 {
   imports = [
+    ./bemenu.nix
     ./btop.nix
+    ./dunst.nix
     ./eza.nix
     ./firefox.nix
     ./fish.nix

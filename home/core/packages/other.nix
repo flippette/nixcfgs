@@ -14,7 +14,6 @@
 
   programs = {
     bat.enable = true;
-    bemenu.enable = true;
     fd.enable = true;
     ripgrep.enable = true;
   };
