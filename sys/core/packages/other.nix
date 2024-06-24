@@ -9,4 +9,9 @@
     git.enable = true;
     fish.enable = true;
   };
+
+  services = {
+    udisks2.enable = true;
+    libinput.enable = true;
+  };
 }
