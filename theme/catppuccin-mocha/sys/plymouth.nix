@@ -4,8 +4,8 @@
     enable = true;
     theme = "catppuccin-mocha";
     themePackages = [
-      pkgs.catppuccin-plymouth.override
-      { variant = "mocha"; }
+      (pkgs.catppuccin-plymouth.override
+      { variant = "mocha"; })
     ];
   };
 }
