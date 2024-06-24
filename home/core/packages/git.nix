@@ -1,6 +1,6 @@
 {
   programs.git = {
-    config = {
+    extraConfig = {
       init.defaultBranch = "main";
       core.autocrlf = false;
       color.ui = true;
