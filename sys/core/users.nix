@@ -6,7 +6,7 @@
     groups = {
       gamemode.members = [ "flippette" ];
 
-      # for rwx permissions to /usr/games
+      # for rwx permissions to /games
       games.members = [ "flippette" ];
 
       networkmanager.members = [ "flippette" ];

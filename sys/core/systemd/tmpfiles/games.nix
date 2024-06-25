@@ -1,5 +1,5 @@
 {
-  systemd.tmpfiles.settings."10-usr-games"."/usr/games" = {
+  systemd.tmpfiles.settings."10-games"."/games" = {
     d = {
       group = "games";
       mode = "0770";
