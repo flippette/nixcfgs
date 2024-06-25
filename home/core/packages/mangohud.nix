@@ -1,7 +1,7 @@
 {
   programs.mangohud = {
     enable = true;
-    
+
     settings = {
       gpu_temp = true;
       gpu_junction_temp = true;
