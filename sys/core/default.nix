@@ -6,6 +6,7 @@
     ./networking.nix
     ./nix.nix
     ./packages
+    ./systemd
     ./users.nix
   ];
 }

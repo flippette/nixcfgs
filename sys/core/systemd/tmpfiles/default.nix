@@ -1,0 +1,5 @@
+{
+  imports = [
+    ./usr-games.nix
+  ];
+}
