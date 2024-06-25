@@ -8,6 +8,7 @@
   programs = {
     git.enable = true;
     fish.enable = true;
+    steam.enable = true;
   };
 
   services = {

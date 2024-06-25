@@ -7,6 +7,7 @@
     grimblast
     pavucontrol
     pfetch-rs
+    protonup-qt
     tokei
     unzip
     wl-clipboard-rs
