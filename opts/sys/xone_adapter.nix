@@ -5,5 +5,5 @@
     extraModulePackages = [ config.boot.kernelPackages.xone ];
   };
 
-  environment.systemPackages = [ pkgs.xow_dongle-firmware ];
+  hardware.firmware = [ pkgs.xow_dongle-firmware ];
 }
