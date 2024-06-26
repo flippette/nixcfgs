@@ -1,1 +1,6 @@
-{ imports = [ ./tmpfiles ]; }
+{
+  imports = [
+    ./decouple-network-from-boot.nix
+    ./tmpfiles
+  ];
+}
