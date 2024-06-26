@@ -4,7 +4,7 @@
     # quiet boot
     consoleLogLevel = 0;
     initrd.verbose = false;
-    
+
     # quiet boot
     kernelParams = [
       "boot.shell_on_fail"
