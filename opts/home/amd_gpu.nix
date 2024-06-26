@@ -1,7 +1,4 @@
 { pkgs, ... }:
 {
-  home.packages = with pkgs; [
-    lact
-    nvtopPackages.amd
-  ];
+  home.packages = [ pkgs.nvtopPackages.amd ];
 }
