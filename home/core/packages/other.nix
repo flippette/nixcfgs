@@ -10,12 +10,12 @@
     tokei
     unzip
     wl-clipboard-rs
-    zed-editor
   ];
 
   programs = {
     bat.enable = true;
     fd.enable = true;
+    obs-studio.enable = true;
     ripgrep.enable = true;
   };
 
