@@ -1,5 +1,4 @@
-{ nixpkgs, ... }:
-{
+{nixpkgs, ...}: {
   nix = {
     gc = {
       automatic = true;
@@ -8,7 +7,7 @@
 
     optimise = {
       automatic = true;
-      dates = [ "daily" ];
+      dates = ["daily"];
     };
 
     settings = {

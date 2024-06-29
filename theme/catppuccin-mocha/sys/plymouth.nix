@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   boot = {
     # quiet boot
     consoleLogLevel = 0;
@@ -18,7 +17,7 @@
     plymouth = {
       enable = true;
       theme = "catppuccin-mocha";
-      themePackages = [ (pkgs.catppuccin-plymouth.override { variant = "mocha"; }) ];
+      themePackages = [(pkgs.catppuccin-plymouth.override {variant = "mocha";})];
     };
   };
 }

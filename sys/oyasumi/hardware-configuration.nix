@@ -7,10 +7,8 @@
   pkgs,
   modulesPath,
   ...
-}:
-
-{
-  imports = [ (modulesPath + "/installer/scan/not-detected.nix") ];
+}: {
+  imports = [(modulesPath + "/installer/scan/not-detected.nix")];
 
   boot.initrd.availableKernelModules = [
     "nvme"
@@ -20,9 +18,9 @@
     "usb_storage"
     "sd_mod"
   ];
-  boot.initrd.kernelModules = [ ];
-  boot.kernelModules = [ "kvm-amd" ];
-  boot.extraModulePackages = [ ];
+  boot.initrd.kernelModules = [];
+  boot.kernelModules = ["kvm-amd"];
+  boot.extraModulePackages = [];
 
   fileSystems."/" = {
     device = "/dev/disk/by-uuid/ac8e7a83-1ce2-4a02-abd1-380795ba134a";
@@ -48,7 +46,7 @@
     ];
   };
 
-  swapDevices = [ ];
+  swapDevices = [];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's

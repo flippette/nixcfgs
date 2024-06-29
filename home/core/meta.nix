@@ -1,5 +1,4 @@
 # home-manager "metadata"
-
 {
   home = {
     homeDirectory = "/home/flippette";

@@ -1,9 +1,12 @@
-{ config, pkgs, ... }:
 {
+  config,
+  pkgs,
+  ...
+}: {
   boot = {
-    blacklistedKernelModules = [ "mt76x2u" ];
-    extraModulePackages = [ config.boot.kernelPackages.xone ];
+    blacklistedKernelModules = ["mt76x2u"];
+    extraModulePackages = [config.boot.kernelPackages.xone];
   };
 
-  hardware.firmware = [ pkgs.xow_dongle-firmware ];
+  hardware.firmware = [pkgs.xow_dongle-firmware];
 }

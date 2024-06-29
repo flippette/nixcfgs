@@ -1,1 +1,1 @@
-{ boot.kernelParams = [ "cpufreq.default_governor=performance" ]; }
+{boot.kernelParams = ["cpufreq.default_governor=performance"];}

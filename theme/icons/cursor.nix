@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   home.pointerCursor = {
     gtk.enable = true;
     name = "Bibata-Modern-Classic";
@@ -9,5 +8,5 @@
 
   # there's not really a good answer as to where to put this,
   # so here it will go (for now)
-  wayland.windowManager.hyprland.settings.env = [ "XCURSOR_SIZE,22" ];
+  wayland.windowManager.hyprland.settings.env = ["XCURSOR_SIZE,22"];
 }

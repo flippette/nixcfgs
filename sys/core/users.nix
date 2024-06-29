@@ -1,17 +1,16 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   users = {
     # prefer adding users here so it's easier to parse
     # you could just grep usernames in this file anyhow
     groups = {
-      gamemode.members = [ "flippette" ];
+      gamemode.members = ["flippette"];
 
       # for rwx permissions to /games
-      games.members = [ "flippette" ];
+      games.members = ["flippette"];
 
-      networkmanager.members = [ "flippette" ];
-      pipewire.members = [ "flippette" ];
-      wheel.members = [ "flippette" ];
+      networkmanager.members = ["flippette"];
+      pipewire.members = ["flippette"];
+      wheel.members = ["flippette"];
     };
 
     users = {

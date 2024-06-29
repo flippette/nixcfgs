@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   home.packages = with pkgs; [
     dust
     ffmpeg_7-full

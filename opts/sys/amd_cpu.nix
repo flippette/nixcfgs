@@ -1,6 +1,6 @@
 {
   boot = {
-    blacklistedKernelModules = [ "kvm_amd" ];
-    kernelParams = [ "amd_pstate=active" ];
+    blacklistedKernelModules = ["kvm_amd"];
+    kernelParams = ["amd_pstate=active"];
   };
 }

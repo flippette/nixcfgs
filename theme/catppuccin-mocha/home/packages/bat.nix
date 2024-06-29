@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   programs.bat = {
     config.theme = "catppuccin-mocha";
     themes = {

@@ -1,1 +1,1 @@
-{ time.timeZone = "Asia/Ho_Chi_Minh"; }
+{time.timeZone = "Asia/Ho_Chi_Minh";}

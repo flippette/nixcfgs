@@ -1,4 +1,3 @@
-{ pkgs, ... }:
-{
-  home.packages = [ pkgs.nvtopPackages.amd ];
+{pkgs, ...}: {
+  home.packages = [pkgs.nvtopPackages.amd];
 }

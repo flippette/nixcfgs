@@ -30,7 +30,7 @@
 
       cursor.enable_hyprcursor = false;
 
-      monitor = [ "DP-2,1920x1080@144,auto,1" ];
+      monitor = ["DP-2,1920x1080@144,auto,1"];
 
       input = {
         sensitivity = 0.0;
