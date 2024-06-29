@@ -10,6 +10,7 @@
     tokei
     unzip
     wl-clipboard-rs
+    zed-editor
   ];
 
   programs = {
