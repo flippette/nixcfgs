@@ -16,6 +16,7 @@
     ./other.nix
     ./portals.nix
     ./starship.nix
+    ./vscode.nix
     ./waybar.nix
   ];
 }
